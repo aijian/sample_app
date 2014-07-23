@@ -14,6 +14,7 @@ group :test do
     gem 'rubyzip', '~>0.9.9'
 end
 
+gem 'bcrypt', '~>3.1.7'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'

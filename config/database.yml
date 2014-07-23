@@ -11,7 +11,7 @@
 #
 default: &default
   adapter: mysql
-  encoding: utf8
+  encoding: gbk
   pool: 5
   username: root
   password: toor
