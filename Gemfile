@@ -12,6 +12,8 @@ group :test do
     gem 'selenium-webdriver', '2.0.0'
     gem 'capybara', '2.1.0'
     gem 'rubyzip', '~>0.9.9'
+    gem 'factory_girl_rails', '~>4.4.1'
+    gem 'minitest', '~>5.4.0'
 end
 
 gem 'bcrypt', '~>3.1.7'

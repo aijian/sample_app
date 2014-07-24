@@ -12,4 +12,14 @@ require 'spec_helper'
 # end
 describe UsersHelper do
   pending "add some examples to (or delete) #{__FILE__}"
+
+  def full_title(pageTile)
+	base_title = "Ruby On Rails Sample App"
+	if pageTile.empty?
+		base_title
+	else
+		"#{base_title} | #{pageTitle}"
+	end
+	
+  end
 end
